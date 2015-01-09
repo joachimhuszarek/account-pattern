@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeRef="r:c2f80a25-8d2e-49fb-9d1c-e41eca58ec5c(AccountPattern.APP)/2237048964131073248">
+    <nodeInfo nodeId="2237048964131080485" fileName="test.java" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="x" />
+    <unitInfo nodeId="2237048964131073248" fileName="test.java" startLine="6" startPosition="0" endLine="10" endPosition="0" unitName="AccountPattern.APP.test" />
+  </root>
+</debugInfo>
+
