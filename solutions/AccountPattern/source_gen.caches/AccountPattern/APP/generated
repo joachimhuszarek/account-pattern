@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-3rl1m7zca33t1i0hpnmx28g64db0n51">
+<dependencies version="2" modelHash="abggedz6vdkc3aj1c7o1y1g07e0z8oa">
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
-  <common hash="3qzou1lae007ro2i32invj0exqjpqgt" dependsOnNodes="true">
+  <common hash="-34rx3mz4ms4fuifwwx1ninvbpzkzo8" dependsOnNodes="true">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="2237048964131073248" name="test" hash="-1bocwc1pb2u7ybghzw57dkqckkcpg8z">
+  <source id="2237048964131080621" name="test" hash="15wmrrejsiugqqs1mc0e0i4t56hz2t9">
     <file name="test.java" />
   </source>
 </dependencies>

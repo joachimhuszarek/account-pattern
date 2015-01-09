@@ -4,6 +4,5 @@ package AccountPattern.APP;
 
 
 public class test {
-
-  /*package*/ int x = 2;
+  /*package*/ int x;
 }
