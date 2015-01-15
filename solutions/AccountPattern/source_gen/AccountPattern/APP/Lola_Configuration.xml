@@ -1,0 +1,93 @@
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+<beans>
+  <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"></bean>
+  
+  <bean id="basicConfigDummy" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+    <property name="staticMethod">
+      <value>org.apache.log4j.BasicConfigurator.configure</value>
+    </property>
+  </bean>
+  
+  <bean id="userEnvironmentInformation" class="org.modellwerkstatt.objectflow.ObjectFlowRT.UserEnvironmentInformation">
+    <constructor-arg index="0">
+      
+      <value>Account Pattern test config</value>
+      
+    </constructor-arg>
+    <constructor-arg index="1">
+      
+      <value>Baby</value>
+      
+    </constructor-arg>
+  </bean>
+  
+  <bean id="transactionDefinition" class="org.springframework.transaction.support.DefaultTransactionDefinition">
+    <property name="propagationBehaviorName">
+      <value>PROPAGATION_REQUIRES_NEW</value>
+    </property>
+    <property name="isolationLevelName">
+      <value>ISOLATION_READ_COMMITTED</value>
+    </property>
+    <property name="timeout">
+      <value>5000</value>
+    </property>
+  </bean>
+  
+  <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+    <property name="dataSource" ref="dataSource"></property>
+  </bean>
+  
+  <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+    <property name="numHelperThreads">
+      <value>1</value>
+    </property>
+    <property name="maxIdleTime">
+      <value>1800</value>
+    </property>
+    <property name="acquireRetryDelay">
+      <value>0</value>
+    </property>
+    <property name="acquireRetryAttempts">
+      <value>30</value>
+    </property>
+    <property name="driverClass">
+      <value>oracle.jdbc.driver.OracleDriver</value>
+    </property>
+    <property name="jdbcUrl">
+      <value>jdbc:oracle:thin:@//lola:1521/LOLA</value>
+    </property>
+    <property name="maxPoolSize">
+      <value>1</value>
+    </property>
+    <property name="user">
+      <value>fwws</value>
+    </property>
+    <property name="password">
+      <value>lola</value>
+    </property>
+  </bean>
+  
+  <bean id="_dateTimeTypeHandler" class="org.modellwerkstatt.manmap.solution.manmapRT.MMJodaDateTimeTypeHanlder"></bean>
+  <bean id="_localDateTypeHandler" class="org.modellwerkstatt.manmap.solution.manmapRT.MMJodaLocalDateTypeHanlder"></bean>
+  <bean id="_bigDecimalTypeHandler" class="org.modellwerkstatt.manmap.solution.manmapRT.MMBigDecimalTypeHandler"></bean>
+  <bean id="_stringTypeHandler" class="org.modellwerkstatt.manmap.solution.manmapRT.MMStringTypeHandler"></bean>
+  <bean id="_intTypeHandler" class="org.modellwerkstatt.manmap.solution.manmapRT.MMIntTypeHandler"></bean>
+  <bean id="_mmTypeHandlers" class="org.modellwerkstatt.manmap.solution.manmapRT.MMTypeHandlers"></bean>
+  <bean id="deprecatedServerDateProvider" class="org.modellwerkstatt.objectflow.ObjectFlowRT.DeprecatedServerDateProvider"></bean>
+  <bean id="simplePrinterServices" class="org.modellwerkstatt.objectflow.services.MoSimplePrintService"></bean>
+  <bean id="fxUiFactory" class="org.modellwerkstatt.fx8forms.windows.FX8UiFactory"></bean>
+  <bean id="fxKeyBoard" class="org.modellwerkstatt.fx8forms.windows.FX8WindowsKeyBoard"></bean>
+  <bean id="logService" class="org.modellwerkstatt.objectflow.services.MoFakeLockService"></bean>
+  
+  
+  
+  
+  
+  <bean id="AccountPattern.APP.MapAcc_StockEntry" class="AccountPattern.APP.MapAcc_StockEntry"></bean>
+  <bean id="AccountPattern.APP.MapAcc_StockEntryBasis" class="AccountPattern.APP.MapAcc_StockEntryBasis"></bean>
+  <bean id="AccountPattern.APP.MapAcc_StockKeepingUnit" class="AccountPattern.APP.MapAcc_StockKeepingUnit"></bean>
+  <bean id="AccountPattern.APP.MapAcc_StockTransaction" class="AccountPattern.APP.MapAcc_StockTransaction"></bean>
+  <bean id="__accountProc" class="AccountPattern.APP.AccountProc"></bean>
+  <bean id="__accountRepo" class="AccountPattern.APP.AccountRepo"></bean>
+  
+</beans>

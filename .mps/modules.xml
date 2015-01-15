@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/solutions/AccountPattern/AccountPattern.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/../HafinaBasis/solutions/at.hafina.basis/at.hafina.basis.msd" folder="" />
     </projectModules>
   </component>
 </project>

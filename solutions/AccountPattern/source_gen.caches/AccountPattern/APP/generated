@@ -1,11 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="abggedz6vdkc3aj1c7o1y1g07e0z8oa">
+<dependencies version="2" modelHash="-8ys6oj0ruwobjudbdtnpu3ennpqn2gm">
+  <dep model="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.joda.time(org.modellwerkstatt.manmap.solution/org.joda.time@java_stub)" />
+  <dep model="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory@java_stub)" />
+  <dep model="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.jdbc.core(org.modellwerkstatt.manmap.solution/org.springframework.jdbc.core@java_stub)" />
+  <dep model="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.jdbc.support(org.modellwerkstatt.manmap.solution/org.springframework.jdbc.support@java_stub)" />
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.reflect(JDK/java.lang.reflect@java_stub)" />
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.baseLanguage.closures.runtime(MPS.Core/jetbrains.mps.baseLanguage.closures.runtime@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="46jsxl802hw5is64gtjcw36kxhxdzvx" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
+  <dep model="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" hash="chl3n2j3ktfbkb1kcqvqavp9gj0gu9g" />
+  <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" hash="-bu54npm4id9q3r9fbpsa5s107h86gvg" />
+  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="2rw431aummgwrvc6vvrvyxnd6ddlzo0" />
+  <dep model="r:03ecb556-c3b8-4490-964e-e30f12ad09e3(org.modellwerkstatt.manmap.generator.template.main@generator)" hash="-1mdgebis51i0s1nt6v89psw1g3mck83" />
+  <dep model="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" hash="-1gi24bc682gswuon6krr5oyy86401by" />
+  <dep model="r:3343c1b3-c2d7-41ec-ac58-69bdc36e5b88(org.modellwerkstatt.fatflow.generator.template.entity@generator)" hash="3e4ngjpgi7stymuxlu2y8xaa2lgmflk" />
+  <dep model="r:545879b4-0281-4acc-8223-ba14d3dd508c(org.modellwerkstatt.fatflow.generator.template.main@generator)" hash="-crg6bz1gntm0zdtlwed7ek926cveflj" />
+  <dep model="r:61b0a109-1890-4337-8528-5abbac987866(org.modellwerkstatt.forms.FormCrtl)" hash="asv0tgulbygaravcskcuzuu92kd8rcx" />
+  <dep model="r:725de480-4df4-4e47-9f08-a7b1f0db4599(at.hafina.basis.configurations)" hash="-3kh6gwbfokyrraef7pazulbdf0kosdt" />
+  <dep model="r:77315180-b896-4e0a-991d-33bc91196519(org.modellwerkstatt.fatflow.generator.fatflowgen.javaext@generator)" hash="1mvhmdh9pz60mte0rmz0iznc108bhx0" />
+  <dep model="r:775c0fa7-99cc-49ff-86b2-34796e752e4b(org.modellwerkstatt.forms.api)" hash="-6hqvfcblsbsiy8xjfsp7yhttfk8mo7a" />
+  <dep model="r:82ed47b4-01d4-4bb7-bdba-2f95f9a93c54(org.modellwerkstatt.forms.generator.template.main@generator)" hash="84kcg68vmhz04yxhkaftrtz6hq7i6yj" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
-  <common hash="-34rx3mz4ms4fuifwwx1ninvbpzkzo8" dependsOnNodes="true">
+  <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="npgvdfpnhgphsd6ic5xuzipg1hn1j4" />
+  <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" hash="d523wran7fgualdas9s222gtzidtzaj" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
+  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-8chtguhcvj45cjy0bx3xiqekte2lox7" />
+  <common hash="accqlw623u9t5aw2hptqqq0pyixtkz8" dependsOnNodes="true">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="2237048964131080621" name="test" hash="15wmrrejsiugqqs1mc0e0i4t56hz2t9">
-    <file name="test.java" />
+  <source id="2237048964131180916" name="Lola_Configuration" hash="7shu0ql3b3rfp6nxmb6l1bxq1ati8sc">
+    <dep model="r:725de480-4df4-4e47-9f08-a7b1f0db4599(at.hafina.basis.configurations)" />
+    <file name="Lola_Configuration.xml" />
+  </source>
+  <source id="2237048964131182654" name="AccountPattern" hash="3p1ugv8bc8g3n0loudxgv2bjfnt1una">
+    <dep root="2237048964131180916" />
+    <dep root="716552608925767060" />
+    <dep root="716552608925770460" />
+    <dep root="716552608926014961" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <file name="AccountPattern.java" />
+  </source>
+  <source id="2648830224627220634" name="Acc_StockEntryBasis" hash="-6obj80zujc64suk3e61rqhp7or6c732">
+    <dep root="2648830224627221498" />
+    <dep root="2648830224627244518" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
+    <dep model="r:3343c1b3-c2d7-41ec-ac58-69bdc36e5b88(org.modellwerkstatt.fatflow.generator.template.entity@generator)" />
+    <dep model="r:77315180-b896-4e0a-991d-33bc91196519(org.modellwerkstatt.fatflow.generator.fatflowgen.javaext@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="Acc_StockEntryBasis.java" />
+  </source>
+  <source id="2648830224627221498" name="Acc_StockEntry" hash="8u040kirpuliwomrmol8et2470q3wp">
+    <dep root="2648830224627245154" />
+    <dep root="716552608930292313" />
+    <dep root="8723101272984086285" />
+    <dep root="8723101272984086694" />
+    <dep model="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.joda.time(org.modellwerkstatt.manmap.solution/org.joda.time@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
+    <dep model="r:3343c1b3-c2d7-41ec-ac58-69bdc36e5b88(org.modellwerkstatt.fatflow.generator.template.entity@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <file name="Acc_StockEntry.java" />
+  </source>
+  <source id="2648830224627244518" name="Acc_StockTransaction" hash="-9p5dbow2se27fjxku8khwyxld6d2ez5">
+    <dep root="8723101272984086694" />
+    <dep root="8723101272984178326" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
+    <dep model="r:3343c1b3-c2d7-41ec-ac58-69bdc36e5b88(org.modellwerkstatt.fatflow.generator.template.entity@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <file name="Acc_StockTransaction.java" />
+  </source>
+  <source id="2648830224627245154" name="Quantity" hash="-3p6f7zhk2p9kn4lg0jwun0ag5pnvsje">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:3343c1b3-c2d7-41ec-ac58-69bdc36e5b88(org.modellwerkstatt.fatflow.generator.template.entity@generator)" />
+    <dep model="r:545879b4-0281-4acc-8223-ba14d3dd508c(org.modellwerkstatt.fatflow.generator.template.main@generator)" />
+    <dep model="r:77315180-b896-4e0a-991d-33bc91196519(org.modellwerkstatt.fatflow.generator.fatflowgen.javaext@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <file name="Quantity.java" />
+  </source>
+  <source id="8723101272984086694" name="Acc_StockKeepingUnit" hash="-yfj4yzm1ivghczp9vpzhabczqb8p5y">
+    <dep root="2648830224627221498" />
+    <dep root="2648830224627245154" />
+    <dep root="716552608930292313" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:3343c1b3-c2d7-41ec-ac58-69bdc36e5b88(org.modellwerkstatt.fatflow.generator.template.entity@generator)" />
+    <dep model="r:77315180-b896-4e0a-991d-33bc91196519(org.modellwerkstatt.fatflow.generator.fatflowgen.javaext@generator)" />
+    <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="Acc_StockKeepingUnit.java" />
+  </source>
+  <source id="8723101272984178326" name="Acc_Document" hash="30tqqb1pxu50va0h1ink8a4jwr5hxfw">
+    <dep root="2648830224627244518" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:3343c1b3-c2d7-41ec-ac58-69bdc36e5b88(org.modellwerkstatt.fatflow.generator.template.entity@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="Acc_Document.java" />
+  </source>
+  <source id="716552608925767060" name="Create new entry" hash="-7fh819umxti0b43kn0ibj0mzmw2lh3u">
+    <dep root="2648830224627221498" />
+    <dep root="2648830224627245154" />
+    <dep root="716552608925770460" />
+    <dep root="716552608930292313" />
+    <dep root="8723101272984086694" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.baseLanguage.closures.runtime(MPS.Core/jetbrains.mps.baseLanguage.closures.runtime@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
+    <dep model="r:545879b4-0281-4acc-8223-ba14d3dd508c(org.modellwerkstatt.fatflow.generator.template.main@generator)" />
+    <dep model="r:77315180-b896-4e0a-991d-33bc91196519(org.modellwerkstatt.fatflow.generator.fatflowgen.javaext@generator)" />
+    <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="Create_new_entry.java" />
+  </source>
+  <source id="716552608925770460" name="AccountProc" hash="6603zh5fmjdqoevsfj1ifywyyy06wkf" dependsOnNodes="true">
+    <dep root="2237048964131180916" />
+    <dep root="2237048964131182654" />
+    <dep root="2648830224627220634" />
+    <dep root="2648830224627221498" />
+    <dep root="2648830224627244518" />
+    <dep root="2648830224627245154" />
+    <dep root="716552608925767060" />
+    <dep root="716552608926014961" />
+    <dep root="716552608926144060" />
+    <dep root="716552608930292313" />
+    <dep root="716552608930772146" />
+    <dep root="8723101272984086285" />
+    <dep root="8723101272984086694" />
+    <dep root="8723101272984178326" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
+    <dep model="r:545879b4-0281-4acc-8223-ba14d3dd508c(org.modellwerkstatt.fatflow.generator.template.main@generator)" />
+    <dep model="r:77315180-b896-4e0a-991d-33bc91196519(org.modellwerkstatt.fatflow.generator.fatflowgen.javaext@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="AccountProc.java" />
+  </source>
+  <source id="716552608926014961" name="NewEntryFc" hash="-28rhbclw61aoghj38acdfmp97w5psy5">
+    <dep root="2648830224627221498" />
+    <dep root="2648830224627245154" />
+    <dep root="716552608930292313" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
+    <dep model="r:61b0a109-1890-4337-8528-5abbac987866(org.modellwerkstatt.forms.FormCrtl)" />
+    <dep model="r:775c0fa7-99cc-49ff-86b2-34796e752e4b(org.modellwerkstatt.forms.api)" />
+    <dep model="r:82ed47b4-01d4-4bb7-bdba-2f95f9a93c54(org.modellwerkstatt.forms.generator.template.main@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="NewEntryDf.java" />
+    <file name="NewEntryFc.java" />
+  </source>
+  <source id="716552608926144060" hash="cc5vty4nx5y4uilqwqbz0ev2qewcjr4">
+    <dep root="2648830224627220634" />
+    <dep root="2648830224627221498" />
+    <dep root="2648830224627244518" />
+    <dep root="2648830224627245154" />
+    <dep root="716552608930292313" />
+    <dep root="8723101272984086285" />
+    <dep root="8723101272984086694" />
+    <dep root="8723101272984178326" />
+    <dep model="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.joda.time(org.modellwerkstatt.manmap.solution/org.joda.time@java_stub)" />
+    <dep model="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory@java_stub)" />
+    <dep model="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.jdbc.core(org.modellwerkstatt.manmap.solution/org.springframework.jdbc.core@java_stub)" />
+    <dep model="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.jdbc.support(org.modellwerkstatt.manmap.solution/org.springframework.jdbc.support@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.reflect(JDK/java.lang.reflect@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
+    <dep model="r:03ecb556-c3b8-4490-964e-e30f12ad09e3(org.modellwerkstatt.manmap.generator.template.main@generator)" />
+    <dep model="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
+    <dep model="r:77315180-b896-4e0a-991d-33bc91196519(org.modellwerkstatt.fatflow.generator.fatflowgen.javaext@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="MapAcc_StockEntry.java" />
+    <file name="MapAcc_StockEntryBasis.java" />
+    <file name="MapAcc_StockKeepingUnit.java" />
+    <file name="MapAcc_StockTransaction.java" />
+    <file name="ModelSqlTabelDesc-1.xml" />
+  </source>
+  <source id="716552608930292313" name="Acc_Product" hash="33ey4nudb81ho0nqypsz6p6oxlzd9op">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:3343c1b3-c2d7-41ec-ac58-69bdc36e5b88(org.modellwerkstatt.fatflow.generator.template.entity@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <file name="Acc_Product.java" />
+  </source>
+  <source id="716552608930772146" name="AccountRepo" hash="e92mbz9n40lmr5y8pfyz1j1wrf6vqq6">
+    <dep root="2648830224627221498" />
+    <dep root="716552608926144060" />
+    <dep root="8723101272984086694" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:03ecb556-c3b8-4490-964e-e30f12ad09e3(org.modellwerkstatt.manmap.generator.template.main@generator)" />
+    <dep model="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
+    <dep model="r:77315180-b896-4e0a-991d-33bc91196519(org.modellwerkstatt.fatflow.generator.fatflowgen.javaext@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <file name="AccountRepo.java" />
+  </source>
+  <source id="8723101272984086285" name="Acc_StockEntrySum" hash="2hwnjg563gc89jyeng3r03f9nr9aa2h">
+    <dep root="2648830224627221498" />
+    <dep root="2648830224627245154" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:3343c1b3-c2d7-41ec-ac58-69bdc36e5b88(org.modellwerkstatt.fatflow.generator.template.entity@generator)" />
+    <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" />
+    <dep model="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="Acc_StockEntrySum.java" />
   </source>
 </dependencies>
 
